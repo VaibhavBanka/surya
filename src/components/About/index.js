@@ -23,7 +23,7 @@ export default function About() {
       <div className="flex flex-row  gap-6 ml-8">
         <div className="flex-col mt-14 flex flex-auto w-64 gap-6">
           <h3 className="text-3xl font-medium" data-aos={"fade-left"}>
-            I'm <span className="text-yellow-600">Daniel Jebarson,</span> a Web
+            I'm <span className="text-yellow-600">Suryansh Pandey,</span> a Web
             Enthusiast
           </h3>
           <p
@@ -31,7 +31,7 @@ export default function About() {
             data-aos={"fade-left"}
           >
             I love playing music, reading comics and playing games. I am
-            currently pursuing BTech degree in VIT Vellore. I am {getDate()}{" "}
+            currently pursuing BTech degree in VIT Chennai. I am {getDate()}{" "}
             years old.I love exploring new technologies.
           </p>
           <p
@@ -62,15 +62,6 @@ export default function About() {
               style={{ width: "350px" }}
             />
           </div>
-          <button className="py-3 mt-5 text-white mx-auto px-9 bg-blue-600 border-2 w-fit border-blue-500 rounded-3xl  hover:-translate-y-1.5 duration-[350ms] hover:duration-[350ms] hover:bg-blue-800 hover:scale-[1.023] focus:bg-blue-800 animate-zoomy">
-            <a
-              href={require("../../assets/files/Daniel Resume.pdf")}
-              download={"Dani'sResume.pdf"}
-            >
-              Download CV
-              <DownloadIcon />
-            </a>
-          </button>
         </div>
       </div>
     </div>
